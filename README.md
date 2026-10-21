@@ -36,3 +36,8 @@ To update the site later: edit files, then `git add . && git commit -m "Update" 
 
 ### Optional: custom domain
 Buy a domain, add it under **Settings → Pages → Custom domain**, and create the DNS records GitHub shows you.
+
+### Browser cache
+GitHub Pages lets browsers keep files for 10 minutes. When you change `styles.css`, `script.js` or
+`publications.js`, bump the `?v=` number on their links at the bottom/top of `index.html`
+(e.g. `styles.css?v=2` → `styles.css?v=3`) so visitors get the new version right away.

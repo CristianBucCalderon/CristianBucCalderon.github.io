@@ -18,6 +18,14 @@ const PUBLICATIONS = [
   // ── 2026 ──
   {
     year: 2026,
+    title: "A Real-World Benchmark for Early Wildfire Detection Using Sequential Data with the PyroNear Dataset",
+    authors: "Mateo Lostanlen, Nicolás Isla, José Guillén, Renzo Zanca, Félix Veith, Cristian Buc, Valentín Barriere",
+    venue: "Electronics",
+    url: "https://doi.org/10.3390/electronics15122652",
+    tags: ["computer vision", "wildfire detection"],
+  },
+  {
+    year: 2026,
     title: "Positional versus Symbolic Attention Heads: Learning Dynamics, RoPE Geometry, and Length Generalization",
     authors: "Felipe Urrutia, Juan José Alegría, Cinthia Sanchez Macias, Jorge Salas, Cristian Buc, Cristóbal Rojas",
     venue: "arXiv preprint",
@@ -149,6 +157,14 @@ const PUBLICATIONS = [
     venue: "GEM Workshop, EMNLP 2023",
     url: "https://aclanthology.org/2023.gem-1.21",
     tags: ["vision-language"],
+  },
+  {
+    year: 2023,
+    title: "Studying Generalization on Memory-Based Methods in Continual Learning",
+    authors: "Felipe del Rio, Julio Hurtado, Cristian Buc, Álvaro Soto, Vincenzo Lomonaco",
+    venue: "arXiv preprint",
+    url: "https://arxiv.org/abs/2306.09890",
+    tags: ["continual learning", "generalization"],
   },
 
   // ── 2022 ──

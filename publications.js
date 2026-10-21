@@ -28,7 +28,7 @@ const PUBLICATIONS = [
     year: 2026,
     title: "Positional versus Symbolic Attention Heads: Learning Dynamics, RoPE Geometry, and Length Generalization",
     authors: "Felipe Urrutia, Juan José Alegría, Cinthia Sanchez Macias, Jorge Salas, Cristian Buc, Cristóbal Rojas",
-    venue: "arXiv preprint",
+    venue: "NeurIPS 2026",
     url: "https://arxiv.org/abs/2605.31558",
     tags: ["transformers", "interpretability"],
   },

@@ -109,6 +109,7 @@ h1 {
   font-weight: 500; font-size: 0.95rem; transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
 }
 .btn:hover { transform: translateY(-2px); }
+.btn svg { width: 16px; height: 16px; margin-right: 8px; flex-shrink: 0; }
 .btn-primary { background: var(--grad); color: #fff; box-shadow: 0 8px 30px -8px var(--accent-2); }
 .btn-ghost { border: 1px solid var(--card-border); background: var(--card); }
 .btn-ghost:hover { border-color: var(--accent-2); }

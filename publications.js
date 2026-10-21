@@ -59,10 +59,10 @@ const PUBLICATIONS = [
     tags: ["transformers", "expressivity"],
   },
   {
-    year: 2025,
+    year: 2026,
     title: "Decoupling Positional and Symbolic Attention Behavior in Transformers",
     authors: "Felipe Urrutia, Jorge Salas, Alexander Kozachinskiy, Cristian Buc, Hector Pasten, Cristóbal Rojas",
-    venue: "arXiv preprint",
+    venue: "ICLR 2026",
     url: "https://arxiv.org/abs/2511.11579",
     tags: ["transformers", "interpretability"],
   },

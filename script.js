@@ -56,14 +56,17 @@ function renderPublications(query = "") {
         <h3>${year}</h3>
         <div class="pub-items">
           ${byYear[year].map((p) => {
-            const authors = escapeHtml(p.authors).replace(HIGHLIGHT_NAME, (m) => `<mark>${m}</mark>`);
+            const authors = escapeHtml(p.authors)
+              .replace(HIGHLIGHT_NAME, (m) => `<mark>${m}</mark>`)
+              .replace(/\*/g, "<sup>*</sup>");
+            const note = p.note ? `<span class="pub-note">${escapeHtml(p.note)}</span>` : "";
             const tags = (p.tags || []).map((t) => `<span class="tag">${escapeHtml(t)}</span>`).join("");
             const paper = p.url ? `<a class="pub-link" href="${escapeHtml(p.url)}" target="_blank" rel="noopener">Paper ↗</a>` : "";
             const code = p.code ? `<a class="pub-link" href="${escapeHtml(p.code)}" target="_blank" rel="noopener">Code ↗</a>` : "";
             return `
               <article class="pub">
                 <div class="pub-title">${escapeHtml(p.title)}</div>
-                <div class="pub-authors">${authors}</div>
+                <div class="pub-authors">${authors}${note}</div>
                 <div class="pub-meta">
                   ${p.venue ? `<span class="pub-venue">${escapeHtml(p.venue)}</span>` : ""}
                   ${tags}${paper}${code}

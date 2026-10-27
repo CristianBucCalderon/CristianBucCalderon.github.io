@@ -18,6 +18,15 @@ const PUBLICATIONS = [
   // ── 2026 ──
   {
     year: 2026,
+    title: "Adaptive learning via BG-thalamo-cortical circuitry",
+    authors: "Qin He, Daniel N. Scott, Michael J. Frank, Cristian Buc*, Matthew R. Nassar*",
+    note: "* Equal contribution",
+    venue: "Nature Communications",
+    url: "https://doi.org/10.1101/2025.03.13.643078",
+    tags: ["neuroscience", "computational model"],
+  },
+  {
+    year: 2026,
     title: "A Real-World Benchmark for Early Wildfire Detection Using Sequential Data with the PyroNear Dataset",
     authors: "Mateo Lostanlen, Nicolás Isla, José Guillén, Renzo Zanca, Félix Veith, Cristian Buc, Valentín Barriere",
     venue: "Electronics",
@@ -97,14 +106,6 @@ const PUBLICATIONS = [
     venue: "Communications Psychology",
     url: "https://doi.org/10.1038/s44271-025-00200-1",
     tags: ["cognition", "memory"],
-  },
-  {
-    year: 2025,
-    title: "Adaptive learning via BG-thalamo-cortical circuitry",
-    authors: "Qin He, Daniel N. Scott, Michael J. Frank, Cristian Buc, Matthew R. Nassar",
-    venue: "bioRxiv preprint",
-    url: "https://doi.org/10.1101/2025.03.13.643078",
-    tags: ["neuroscience", "computational model"],
   },
   {
     year: 2025,

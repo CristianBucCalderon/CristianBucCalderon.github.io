@@ -20,7 +20,7 @@ const PUBLICATIONS = [
     year: 2026,
     title: "Adaptive learning via BG-thalamo-cortical circuitry",
     authors: "Qin He, Daniel N. Scott, Michael J. Frank, Cristian Buc*, Matthew R. Nassar*",
-    note: "* Equal contribution",
+    note: "* Co-senior authors",
     venue: "Nature Communications",
     url: "https://doi.org/10.1101/2025.03.13.643078",
     tags: ["neuroscience", "computational model"],
@@ -54,7 +54,8 @@ const PUBLICATIONS = [
   {
     year: 2025,
     title: "Strassen Attention, Split VC Dimension and Compositionality in Transformers",
-    authors: "Alexander Kozachinskiy, Felipe Urrutia, Hector Orellana, Tomasz Steifer, Germán Pizarro, Matías Fuentes, Francisco Meza, Cristian Buc, Cristóbal Rojas",
+    authors: "Alexander Kozachinskiy, Felipe Urrutia, Hector Orellana, Tomasz Steifer, Germán Pizarro, Matías Fuentes, Francisco Meza, Cristian Buc*, Cristóbal Rojas*",
+    note: "* Co-senior authors",
     venue: "NeurIPS 2025",
     url: "https://arxiv.org/abs/2501.19215",
     tags: ["transformers", "expressivity"],
